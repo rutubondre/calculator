@@ -33,6 +33,14 @@
             padding: 2px 0;
             font-size: 20px;
         }
+        
+        .button-container {
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
     </style>
 </head>
 
@@ -40,15 +48,15 @@
     <div class="calculator-body">
         <input type="text" value="0" class="input" />
 
-        <div button-container></div>
-        <button class="btn">Ac</button>
-        <button class="btn">7</button>
-        <button class="btn">4</button>
-        <button class="btn">1</button>
-        <button class="btn">0</button>
+        <div class="button-container">
+            <button class="btn">Ac</button>
+            <button class="btn">7</button>
+            <button class="btn">4</button>
+            <button class="btn">1</button>
+            <button class="btn">0</button>
 
 
 
-    </div>
+        </div>
 
 </html>
